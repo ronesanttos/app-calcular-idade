@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-weight: 800;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  hsl(0, 0%, 94%);
+}
+.container {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px 10px 30% 10px;
+}
+.box-input {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  padding-left: 25px;
+  margin: 0px 10px;
+}
+.card-input {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  margin-top: 10px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+  color:  hsl(0, 1%, 44%);
+}
+input {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+
+#msgDay,
+#msgMonth,
+#msgYear{
+  width: 100%;
+  padding: 5px;
+  color:  hsl(0, 100%, 67%);
+  font-size: 12px;
+}
+
+.btn {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn::before {
+  content: "";
+  width: 80%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid hsl(0, 0%, 86%) /* Altera a largura, estilo e cor da borda */
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+}
+img {
+  width: 50%;
+}
+
+button:hover {
+  background-color:  hsl(0, 0%, 8%);
+}
+.calcule {
+  padding: 10px 10px 0px 20px;
+}
+.calcule h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  padding-left: 25px;
+  color:  hsl(0, 0%, 8%);
+}
+
+.calcule span {
+  color: hsl(259, 100%, 65%)
+}

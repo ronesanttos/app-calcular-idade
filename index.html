@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcule Age</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-input">
+        <div class="card-input">
+          <label for="day"> Day </label>
+          <input type="number" name="day" id="day" placeholder="DD"  />
+          <p id="msgDay"></p>
+        </div>
+        <div class="card-input">
+          <label for="month"> Month </label>
+          <input type="number" name="month" id="month" placeholder="MM" />
+          <p id="msgMonth"></p>
+        </div>
+        <div class="card-input">
+          <label for="year"> Year </label>
+          <input type="number" name="year" id="year" placeholder="YYYY" />
+          <p id="msgYear"></p>
+        </div>
+      </div>
+      
+      </p>
+      <div class="btn">
+        <button value="calcula" onclick="calcular()">
+          <img src="img/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="calcule">
+        <h1><span id="res-year">--</span> years</h1>
+        <h1><span id="res-month">--</span> months</h1>
+        <h1><span id="res-day">--</span> days</h1>
+      </div>
+    </div>
+
+  </body>
+</html>
